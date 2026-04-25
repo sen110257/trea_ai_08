@@ -229,7 +229,20 @@ const redraw = () => {
 }
 
 .tarot-card.front.reversed {
-  transform: rotate(180deg);
+  box-shadow: 0 10px 40px rgba(245, 87, 108, 0.3);
+}
+
+.tarot-card.front.reversed::before {
+  content: '⚡ 逆位';
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 10px;
+  color: #f5576c;
+  font-weight: 600;
+  letter-spacing: 2px;
+  opacity: 0.8;
 }
 
 .card-number {
