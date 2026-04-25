@@ -1,0 +1,282 @@
+export const constellations = [
+  {
+    id: 'aries',
+    name: '白羊座',
+    symbol: '♈',
+    dateRange: '3.21-4.19',
+    element: '火象',
+    quality: '开创',
+    ruler: '火星',
+    luckyNumber: 9,
+    luckyColor: '红色',
+    luckyDirection: '东方',
+    luckyGem: '红宝石',
+    strengths: ['勇敢', '热情', '乐观', '直率', '自信'],
+    weaknesses: ['冲动', '急躁', '自私', '粗心', '好胜'],
+    personality: '白羊座的人充满活力，喜欢冒险，天生具有领导气质。他们热情奔放，做事果断，从不拖泥带水。',
+    careerStyle: '白羊座适合从事具有挑战性的工作，如销售、创业、运动等。他们敢于竞争，不怕失败。',
+    loveStyle: '在爱情中，白羊座直接而热烈，喜欢就会勇敢追求。他们需要能理解他们热情的伴侣。',
+    quotes: [
+      '勇敢不是不害怕，而是害怕时仍然前行。',
+      '每一次尝试都是一次新的开始。',
+      '热情是最好的燃料。'
+    ]
+  },
+  {
+    id: 'taurus',
+    name: '金牛座',
+    symbol: '♉',
+    dateRange: '4.20-5.20',
+    element: '土象',
+    quality: '固定',
+    ruler: '金星',
+    luckyNumber: 6,
+    luckyColor: '绿色',
+    luckyDirection: '北方',
+    luckyGem: '翡翠',
+    strengths: ['稳重', '可靠', '耐心', '坚韧', '务实'],
+    weaknesses: ['固执', '占有欲', '保守', '懒惰', '拖延'],
+    personality: '金牛座的人稳重踏实，对物质生活有高品质追求。他们做事有耐心，一旦决定就会坚持到底。',
+    careerStyle: '金牛座适合金融、艺术、美食等领域。他们对美感有独到见解，且擅长理财。',
+    loveStyle: '在爱情中，金牛座专一而深情，喜欢稳定的关系。他们用实际行动表达爱意。',
+    quotes: [
+      '慢工出细活，耐心是金。',
+      '真正的幸福来自稳定与持久。',
+      '每一分耕耘都有收获。'
+    ]
+  },
+  {
+    id: 'gemini',
+    name: '双子座',
+    symbol: '♊',
+    dateRange: '5.21-6.21',
+    element: '风象',
+    quality: '变动',
+    ruler: '水星',
+    luckyNumber: 5,
+    luckyColor: '黄色',
+    luckyDirection: '西方',
+    luckyGem: '玛瑙',
+    strengths: ['聪明', '灵活', '沟通', '适应', '幽默'],
+    weaknesses: ['善变', '肤浅', '八卦', '分散', '焦虑'],
+    personality: '双子座的人思维敏捷，善于交际，对新鲜事物充满好奇。他们多才多艺，善于表达。',
+    careerStyle: '双子座适合传媒、教育、销售等需要沟通的工作。他们善于学习新知识，适应力强。',
+    loveStyle: '在爱情中，双子座需要精神上的共鸣。他们喜欢有趣的伴侣，渴望丰富的精神交流。',
+    quotes: [
+      '好奇心是最好的老师。',
+      '沟通是理解的桥梁。',
+      '变化是生活的调味剂。'
+    ]
+  },
+  {
+    id: 'cancer',
+    name: '巨蟹座',
+    symbol: '♋',
+    dateRange: '6.22-7.22',
+    element: '水象',
+    quality: '开创',
+    ruler: '月亮',
+    luckyNumber: 2,
+    luckyColor: '银色',
+    luckyDirection: '北方',
+    luckyGem: '珍珠',
+    strengths: ['温柔', '体贴', '直觉', '忠诚', '保护'],
+    weaknesses: ['敏感', '情绪化', '依赖', '怀旧', '自我保护'],
+    personality: '巨蟹座的人温柔体贴，对家庭和亲密关系非常重视。他们有强烈的保护欲，直觉敏锐。',
+    careerStyle: '巨蟹座适合护理、教育、餐饮等服务行业。他们善于照顾他人，有强烈的责任感。',
+    loveStyle: '在爱情中，巨蟹座深情而专一，渴望安全感和归属感。他们是非常理想的生活伴侣。',
+    quotes: [
+      '家是心灵的港湾。',
+      '温柔是最强大的力量。',
+      '爱是最好的保护。'
+    ]
+  },
+  {
+    id: 'leo',
+    name: '狮子座',
+    symbol: '♌',
+    dateRange: '7.23-8.22',
+    element: '火象',
+    quality: '固定',
+    ruler: '太阳',
+    luckyNumber: 1,
+    luckyColor: '金色',
+    luckyDirection: '南方',
+    luckyGem: '琥珀',
+    strengths: ['自信', '大方', '慷慨', '创意', '热情'],
+    weaknesses: ['骄傲', '虚荣', '专制', '自我', '急躁'],
+    personality: '狮子座的人自信热情，天生具有领袖魅力。他们喜欢成为焦点，慷慨大方，乐于助人。',
+    careerStyle: '狮子座适合管理、表演、公关等领域。他们有天生的领导力，擅长激励他人。',
+    loveStyle: '在爱情中，狮子座热烈而真诚，愿意为爱人付出一切。他们需要被欣赏和崇拜。',
+    quotes: [
+      '像太阳一样发光发热。',
+      '自信是最好的名片。',
+      '生命因绽放而精彩。'
+    ]
+  },
+  {
+    id: 'virgo',
+    name: '处女座',
+    symbol: '♍',
+    dateRange: '8.23-9.22',
+    element: '土象',
+    quality: '变动',
+    ruler: '水星',
+    luckyNumber: 4,
+    luckyColor: '灰色',
+    luckyDirection: '东方',
+    luckyGem: '蓝宝石',
+    strengths: ['细心', '负责', '分析', '勤奋', '谦虚'],
+    weaknesses: ['挑剔', '完美主义', '焦虑', '保守', '自我批评'],
+    personality: '处女座的人追求完美，做事一丝不苟。他们善于分析问题，有强烈的责任感和服务精神。',
+    careerStyle: '处女座适合医疗、财务、编辑等需要细心的工作。他们注重细节，追求卓越。',
+    loveStyle: '在爱情中，处女座用实际行动表达爱，他们会无微不至地照顾伴侣，但也会比较挑剔。',
+    quotes: [
+      '细节决定成败。',
+      '追求卓越，永不满足。',
+      '真正的优雅源于完美。'
+    ]
+  },
+  {
+    id: 'libra',
+    name: '天秤座',
+    symbol: '♎',
+    dateRange: '9.23-10.23',
+    element: '风象',
+    quality: '开创',
+    ruler: '金星',
+    luckyNumber: 6,
+    luckyColor: '粉色',
+    luckyDirection: '西方',
+    luckyGem: '蛋白石',
+    strengths: ['优雅', '公正', '社交', '协调', '艺术'],
+    weaknesses: ['犹豫', '依赖', '肤浅', '逃避', '虚荣'],
+    personality: '天秤座的人追求和谐与平衡，善于社交，有很高的审美品味。他们总是试图维持公平。',
+    careerStyle: '天秤座适合法律、设计、外交等需要协调的工作。他们擅长处理人际关系。',
+    loveStyle: '在爱情中，天秤座优雅而浪漫，需要精神和视觉上的双重吸引。他们渴望理想的伴侣。',
+    quotes: [
+      '平衡是生活的艺术。',
+      '优雅是一种态度。',
+      '和谐创造美好。'
+    ]
+  },
+  {
+    id: 'scorpio',
+    name: '天蝎座',
+    symbol: '♏',
+    dateRange: '10.24-11.22',
+    element: '水象',
+    quality: '固定',
+    ruler: '冥王星',
+    luckyNumber: 8,
+    luckyColor: '黑色',
+    luckyDirection: '北方',
+    luckyGem: '石榴石',
+    strengths: ['深刻', '神秘', '专注', '忠诚', '坚韧'],
+    weaknesses: ['嫉妒', '报复', '控制', '冷漠', '偏执'],
+    personality: '天蝎座的人神秘而深刻，对事物有独到的洞察。他们情感强烈，一旦投入就非常忠诚。',
+    careerStyle: '天蝎座适合研究、侦探、心理咨询等深入探究的工作。他们善于发现隐藏的真相。',
+    loveStyle: '在爱情中，天蝎座深情而专一，但也有强烈的占有欲。他们渴望灵魂层面的深度连接。',
+    quotes: [
+      '深度比广度更有价值。',
+      '真正的力量来自内心。',
+      '涅槃重生，破茧成蝶。'
+    ]
+  },
+  {
+    id: 'sagittarius',
+    name: '射手座',
+    symbol: '♐',
+    dateRange: '11.23-12.21',
+    element: '火象',
+    quality: '变动',
+    ruler: '木星',
+    luckyNumber: 3,
+    luckyColor: '紫色',
+    luckyDirection: '南方',
+    luckyGem: '绿松石',
+    strengths: ['乐观', '自由', '诚实', '幽默', '探索'],
+    weaknesses: ['鲁莽', '直接', '不安分', '夸大', '逃避'],
+    personality: '射手座的人乐观开朗，热爱自由，喜欢探索未知。他们追求真理，有远大的理想。',
+    careerStyle: '射手座适合旅行、教育、哲学等领域。他们喜欢冒险，渴望开阔眼界。',
+    loveStyle: '在爱情中，射手座需要空间和自由，他们喜欢有趣的伴侣，一起探索世界。',
+    quotes: [
+      '生活不止眼前的苟且，还有诗和远方。',
+      '自由是最宝贵的财富。',
+      '每一次出发都是新的发现。'
+    ]
+  },
+  {
+    id: 'capricorn',
+    name: '摩羯座',
+    symbol: '♑',
+    dateRange: '12.22-1.19',
+    element: '土象',
+    quality: '开创',
+    ruler: '土星',
+    luckyNumber: 8,
+    luckyColor: '棕色',
+    luckyDirection: '东方',
+    luckyGem: '黑玉',
+    strengths: ['坚韧', '责任', '自律', '耐心', '务实'],
+    weaknesses: ['严肃', '悲观', '压抑', '冷漠', '固执'],
+    personality: '摩羯座的人有强烈的责任感和事业心，做事稳重可靠。他们注重实际，有长远规划。',
+    careerStyle: '摩羯座适合管理、金融、工程等专业领域。他们有很强的执行力和组织能力。',
+    loveStyle: '在爱情中，摩羯座比较保守，但非常忠诚可靠。他们会用实际行动证明自己的爱。',
+    quotes: [
+      '天道酬勤，厚积薄发。',
+      '成功是给有准备的人的。',
+      '坚持就是胜利。'
+    ]
+  },
+  {
+    id: 'aquarius',
+    name: '水瓶座',
+    symbol: '♒',
+    dateRange: '1.20-2.18',
+    element: '风象',
+    quality: '固定',
+    ruler: '天王星',
+    luckyNumber: 4,
+    luckyColor: '蓝色',
+    luckyDirection: '西方',
+    luckyGem: '紫水晶',
+    strengths: ['创新', '独立', '博爱', '理性', '友善'],
+    weaknesses: ['叛逆', '疏离', '固执', '冷漠', '极端'],
+    personality: '水瓶座的人独立而独特，有超前的思维，关注人类和社会的发展。他们博爱友善。',
+    careerStyle: '水瓶座适合科技、艺术、慈善等创新领域。他们有独特的见解和创造力。',
+    loveStyle: '在爱情中，水瓶座需要精神上的共鸣和自由的空间。他们喜欢独特有趣的伴侣。',
+    quotes: [
+      '与众不同，方显珍贵。',
+      '创新推动世界进步。',
+      '博爱让世界更美好。'
+    ]
+  },
+  {
+    id: 'pisces',
+    name: '双鱼座',
+    symbol: '♓',
+    dateRange: '2.19-3.20',
+    element: '水象',
+    quality: '变动',
+    ruler: '海王星',
+    luckyNumber: 7,
+    luckyColor: '海蓝',
+    luckyDirection: '北方',
+    luckyGem: '海蓝宝石',
+    strengths: ['感性', '直觉', '艺术', '同情', '包容'],
+    weaknesses: ['敏感', '逃避', '迷糊', '脆弱', '依赖'],
+    personality: '双鱼座的人温柔敏感，富有想象力和艺术气息。他们有很强的同理心，容易理解他人。',
+    careerStyle: '双鱼座适合艺术、医疗、慈善等领域。他们有丰富的创造力和奉献精神。',
+    loveStyle: '在爱情中，双鱼座浪漫而深情，渴望灵魂的交融。他们愿意为爱牺牲奉献。',
+    quotes: [
+      '梦境是现实的延伸。',
+      '温柔是最动人的力量。',
+      '想象创造无限可能。'
+    ]
+  }
+]
+
+export const getConstellationById = (id) => {
+  return constellations.find(c => c.id === id) || constellations[0]
+}
