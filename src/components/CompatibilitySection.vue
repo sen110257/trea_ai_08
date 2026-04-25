@@ -226,14 +226,29 @@ const calculateMatch = () => {
   width: 100%;
   padding: 12px 14px;
   padding-right: 36px;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(30, 30, 70, 0.9);
+  border: 1px solid rgba(255, 215, 0, 0.3);
   border-radius: 12px;
-  color: #fff;
+  color: #ffffff;
   font-size: 14px;
+  font-weight: 500;
   cursor: pointer;
   appearance: none;
   -webkit-appearance: none;
+  line-height: 1.5;
+}
+
+.constellation-select option {
+  background-color: #1a1a3e;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+.constellation-select:focus {
+  outline: none;
+  border-color: rgba(255, 215, 0, 0.6);
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.2);
 }
 
 .select-wrapper::after {
