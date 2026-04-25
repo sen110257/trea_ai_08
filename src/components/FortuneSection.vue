@@ -87,6 +87,16 @@
       </div>
       <p class="tips-text">{{ fortune.tips }}</p>
     </div>
+    
+    <svg class="svg-defs" style="position: absolute; width: 0; height: 0; overflow: hidden;">
+      <defs>
+        <linearGradient id="fortuneGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#ffd700"/>
+          <stop offset="50%" stop-color="#ffed4e"/>
+          <stop offset="100%" stop-color="#ffd700"/>
+        </linearGradient>
+      </defs>
+    </svg>
   </section>
 </template>
 
@@ -412,16 +422,6 @@ watch(() => props.constellationId, () => {
 }
 
 :deep(.progress-ring-fg) {
-  stroke: url(#gradient);
+  stroke: #ffd700;
 }
 </style>
-
-<svg style="position: absolute; width: 0; height: 0;">
-  <defs>
-    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffd700"/>
-      <stop offset="50%" stop-color="#ffed4e"/>
-      <stop offset="100%" stop-color="#ffd700"/>
-    </linearGradient>
-  </defs>
-</svg>
